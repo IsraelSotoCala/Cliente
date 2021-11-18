@@ -1,7 +1,5 @@
-var keyCode
-
-function tecla(e) {
-    if (window.event) keyCode = window.event.keyCode;
-    else if (e) keyCode = e.which;
-    alert(keyCode)
+function tecla(event) {
+    let codigoTecla = event.keyCode;
+    let teclaConvertida = String.fromCharCode(codigoTecla);
+    document.getElementById('texto').innerHTML = "Código: " + codigoTecla + " = Tecla: " + teclaConvertida;
 }
