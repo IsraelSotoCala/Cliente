@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMA 6 EJERCICIOS FORMULARIOS</title>
+    <script src="ejerciciosFormularios.js"></script>
+</head>
+
+<body>
+
+    <!--Ejercicio1-->
+    <h2>Ejericio1</h2>
+    <form id="formulario1" onsubmit="comprobarDNI()">
+        <label>Introduzca su DNI </label>
+        <input type="text" id="textoDNI" value="45385193Y" />
+        <input type="submit" />
+    </form>
+
+    <br>
+
+    <!--Ejercicio2-->
+    <h2>Ejercicio2</h2>
+    <form id="formulario2" onsubmit="comprobarEmail();">
+        <label for="mail">Introduzca su email:</label>
+        <input type="text" id="mail" name="mail" value="ejemplovalido@gmail.com">
+        <br><br>
+        <input type="submit" value="¿Es válido?">
+    </form>
+
+    <br>
+
+    <!--Ejercicio3-->
+    <h2>Ejercicio3</h2>
+    <form id="formulario3" onsubmit="comprobarAnagrama()">
+        <label>¿Son anagramas?</label>
+        <input type="text" id="texto1" value="cliente" />
+        <input type="text" id="texto2" value="etneilc" />
+        <input type="submit" value="Comprobarlo" />
+    </form>
+
+    <br>
+
+    <!--Ejercicio4-->
+    <h2>Ejercicio4</h2>
+
+
+</body>
+
+</html>
