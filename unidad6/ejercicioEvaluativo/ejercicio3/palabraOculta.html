@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="palabraOculta.js"></script>
+</head>
+
+<body>
+    <h2>La palabra a adivinar es:</h2>
+    <p id="pista"> </p>
+    <br>
+    <form>
+        <input type="text" id="adivinar">
+        <input type="button" value="Ver si acertaste" onclick="comprobar()">
+        <input type="button" value="Terminar" onclick="porcentajeAciertos()">
+    </form>
+    <br>
+    <br> Adivina la palabra
+    <p id="acierto"></p>
+    <p id="porcentajeAciertos"></p>
+</body>
+
+</html>
