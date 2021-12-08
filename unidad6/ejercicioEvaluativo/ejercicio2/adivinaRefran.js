@@ -1,6 +1,6 @@
 //Array de refranes, refran aleatorio, division en letras
 
-let refranes = ["Más vale pájaro en mano que ciento volando", "El que no corre vuela", "Ojo por ojo diente por diente"]
+let refranes = ["Más vale pájaro en mano que ciento volando", "El que no corre, vuela", "Ojo por ojo, diente por diente"]
 
 let refran = refranes[Math.floor(Math.random() * refranes.length)]
 
@@ -8,20 +8,35 @@ let letras = refran.split("")
 
 let tiempo
 
-//Creamos 
 for (let i = 0; i < letras.length; i++) {
+
+    //Si es un espacio en blanco o una coma dejamos un espacio en blanco
+
     if (letras[i] === " " || letras[i] === "," || letras[i] === ",") {
+        let div = document.createElement("div");
+        let contenedor = document.getElementById("contenedor");
+        div.className = "espacio";
+        contenedor.appendChild(div);
+    } //Si no rellenamos con las letras
+    else {
+
+        //Creamos un elemento de tipo input
+
         let input = document.createElement("input")
-    } else {
-        let input = document.createElement("input")
+
+        //Con esto le damos los atributos a los input para que contengan el texto y tengan el tamaño de un caracter
 
         input.setAttribute('type', 'text')
 
         input.setAttribute('size', '1')
 
+        //Id de cada letra
+
         input.id = "letra" + i
 
         let contenedor = document.getElementById("contenedor")
+
+        //Con esto creamos los inputs dentro del contenedor 
 
         contenedor.appendChild(input)
     }
