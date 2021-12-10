@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: paleturquoise;
+        }
+        
+        input {
+            background-color: bisque;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Juego del Ahorcado</h2>
+
+    <div id="contenedor"></div>
+
+    <script src="ahorcado.js"></script>
+
+    <br>
+
+    <input type="button" value="Pista" onclick="rellenar()">
+
+    <br>
+
+    <br>
+
+    <input type="text" id="adivinar">
+    <h5>Escribe la palabra</h5>
+    <input type="button" value="Verificar" onclick="comprobar()">
+    <input type="button" value="Ver palabra" onclick="solucion()">
+</body>
+
+</html>

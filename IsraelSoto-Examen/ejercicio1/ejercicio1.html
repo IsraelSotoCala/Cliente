@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+
+<body>
+
+    <h1>Configuración de usuario</h1>
+    <form>
+        <!--Inicio Sesión-->
+        <h2>Inicio de sesión</h2>
+        <p>¿Cuándo quieres que Windows te vuelva a pedir que inicies sesión?</p>
+        <select>
+            <option>Cuando el PC se activa tras haber estado en suspensión</option>
+            <option>Nunca</option>
+        </select>
+
+        <br>
+
+        <!--Contraseña-->
+        <p id="infoContrasenia"></p>
+        <h2>Contraseña</h2>
+        Nueva contraseña <input type="password" id="password" onblur="validarContrasenia()">
+        <br>
+        <p id="infoRepetida"></p>
+        Vuelve a escribir la contraseña <input type="password" id="password2" onblur="contraseniaRepetida()">
+        <br>
+        <p id="infoIndicio"></p>
+        Indicio de contraseña <input type="text" id="indicioPassword" onblur="indicioPassw()">
+
+        <!--Privacidad-->
+        <h2>Privacidad</h2>
+        <input type="checkbox">Mostrar detalles de la cuenta en la pantalla de inicio de sesión
+
+        <br>
+        <br>
+
+        <input type="submit" value="Aceptar" id="enviar" onsubmit="validacion()">
+    </form>
+
+    <script src="ejercicio1.js"></script>
+
+</body>
+
+</html>
