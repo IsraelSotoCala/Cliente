@@ -8,16 +8,16 @@ function verDatos() {
 
 function vuelosDestino() {
     let destino = prompt("Introduce el destino");
+    let lista = [];
     fetch("./src/data.json")
         .then((Response) => Response.json())
         .then((data) => {
             for (let i = 0; i < data.length; i++) {
                 if (data[i].destino.includes(destino)) {
-                    document.getElementById("ej2").innerHTML = JSON.stringify(
-                        data[i]
-                    );
+                    lista.push(JSON.stringify(data[i]))
                 }
             }
+            document.getElementById("ej2").innerHTML = lista
         });
 }
 
