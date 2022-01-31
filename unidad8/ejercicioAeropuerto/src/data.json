@@ -1,0 +1,71 @@
+[{
+        "origen": "Palma",
+        "horasalida": "10:30",
+        "destino": "Oslo",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo1.html"
+    },
+    {
+        "origen": "Lugo",
+        "horasalida": "11:30",
+        "destino": "Madrid",
+        "horallegada": "12:00",
+        "url": "http://www.ibserveis.com/vuelo2.html"
+    },
+    {
+        "origen": "Barna",
+        "horasalida": "13:30",
+        "destino": "Paris",
+        "horallegada": "14:30",
+        "url": "http://www.ibserveis.com/vuelo3.html"
+    },
+    {
+        "origen": "Palma",
+        "horasalida": "10:30",
+        "destino": "Madrid",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo4.html"
+    },
+    {
+        "origen": "Palma",
+        "horasalida": "10:30",
+        "destino": "Paris",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo5.html"
+    },
+    {
+        "origen": "Palma",
+        "horasalida": "10:30",
+        "destino": "Sevilla",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo6.html"
+    },
+    {
+        "origen": "Sevilla",
+        "horasalida": "10:30",
+        "destino": "Madrid",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo7.html"
+    },
+    {
+        "origen": "Jerez",
+        "horasalida": "10:30",
+        "destino": "Londres",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo8.html"
+    },
+    {
+        "origen": "Londres",
+        "horasalida": "10:30",
+        "destino": "Paris",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo9.html"
+    },
+    {
+        "origen": "Londres",
+        "horasalida": "10:30",
+        "destino": "Berlin",
+        "horallegada": "12:30",
+        "url": "http://www.ibserveis.com/vuelo10.html"
+    }
+]
