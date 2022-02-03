@@ -1,0 +1,51 @@
+[{
+        "ciudad": "Cadiz",
+        "tiempo": [{
+                "dia": "2022-03-11",
+                "viento": "15",
+                "temperatura": "20",
+                "luz": "Soleado"
+            }, {
+                "dia": "2022-03-14",
+                "viento": "15",
+                "temperatura": "20",
+                "luz": "Soleado"
+            },
+            {
+                "dia": "2022-03-15",
+                "viento": "5",
+                "temperatura": "21",
+                "luz": "Soleado"
+            }, {
+                "dia": "2022-03-16",
+                "viento": "15",
+                "temperatura": "17",
+                "luz": "Soleado"
+            }
+        ]
+    },
+    {
+        "ciudad": "El Puerto de Santa Maria",
+        "tiempo": [{
+            "dia": "2022-03-11",
+            "viento": "5",
+            "temperatura": "25",
+            "luz": "Soleado"
+        }, {
+            "dia": "2022-03-14",
+            "viento": "15",
+            "temperatura": "20",
+            "luz": "Nublado"
+        }, {
+            "dia": "2022-03-15",
+            "viento": "35",
+            "temperatura": "15",
+            "luz": "Lluvia"
+        }, {
+            "dia": "2022-03-16",
+            "viento": "0",
+            "temperatura": "27",
+            "luz": "Soleado"
+        }]
+    }
+]
