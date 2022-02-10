@@ -20,8 +20,15 @@ function buscar() {
           datos.Genre +
           "</th></tr><th>" +
           datos.Director +
-          "</th></tr></table>"
+          "</th></tr></table> <br> <br>"
       );
+
+      $("th").css("border", "3px solid black");
+      $("table").css({
+        "margin-left": "auto",
+        "margin-right": "auto",
+        "background-color": "white",
+      });
     });
 }
 
